@@ -1,6 +1,5 @@
 # KeepMyGoogleVoice
 
-[English Version](https://github.com/uselibrary/KeepMyGoogleVoice/blob/master/README-en.md)
 
 KeepMyGoogleVoice是使用Python脚本自动发送短信给cloudflare来实现保活Google Voice。默认情况下，将发送一条短信到`8336721001`查询`cloudflare.com`的IP。如果你想修改，可以在执行完一键脚本后，更改`/root/gv.py`中的`phoneNumber`和`text`内容。
 
